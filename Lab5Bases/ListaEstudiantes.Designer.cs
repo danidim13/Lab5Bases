@@ -43,7 +43,7 @@
             // labelNombre
             // 
             this.labelNombre.AutoSize = true;
-            this.labelNombre.Location = new System.Drawing.Point(37, 68);
+            this.labelNombre.Location = new System.Drawing.Point(33, 68);
             this.labelNombre.Name = "labelNombre";
             this.labelNombre.Size = new System.Drawing.Size(69, 20);
             this.labelNombre.TabIndex = 0;
@@ -51,8 +51,9 @@
             // 
             // comboBoxNombre
             // 
+            this.comboBoxNombre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxNombre.FormattingEnabled = true;
-            this.comboBoxNombre.Location = new System.Drawing.Point(117, 65);
+            this.comboBoxNombre.Location = new System.Drawing.Point(131, 65);
             this.comboBoxNombre.Name = "comboBoxNombre";
             this.comboBoxNombre.Size = new System.Drawing.Size(187, 28);
             this.comboBoxNombre.TabIndex = 1;
@@ -60,7 +61,7 @@
             // labelFiltro
             // 
             this.labelFiltro.AutoSize = true;
-            this.labelFiltro.Location = new System.Drawing.Point(408, 68);
+            this.labelFiltro.Location = new System.Drawing.Point(379, 68);
             this.labelFiltro.Name = "labelFiltro";
             this.labelFiltro.Size = new System.Drawing.Size(105, 20);
             this.labelFiltro.TabIndex = 2;
@@ -68,14 +69,14 @@
             // 
             // textBoxFiltro
             // 
-            this.textBoxFiltro.Location = new System.Drawing.Point(519, 65);
+            this.textBoxFiltro.Location = new System.Drawing.Point(490, 65);
             this.textBoxFiltro.Name = "textBoxFiltro";
             this.textBoxFiltro.Size = new System.Drawing.Size(165, 26);
             this.textBoxFiltro.TabIndex = 3;
             // 
             // buttonBuscar
             // 
-            this.buttonBuscar.Location = new System.Drawing.Point(703, 65);
+            this.buttonBuscar.Location = new System.Drawing.Point(674, 65);
             this.buttonBuscar.Name = "buttonBuscar";
             this.buttonBuscar.Size = new System.Drawing.Size(79, 28);
             this.buttonBuscar.TabIndex = 4;
@@ -85,7 +86,7 @@
             // labelEstudiantes
             // 
             this.labelEstudiantes.AutoSize = true;
-            this.labelEstudiantes.Location = new System.Drawing.Point(37, 125);
+            this.labelEstudiantes.Location = new System.Drawing.Point(8, 125);
             this.labelEstudiantes.Name = "labelEstudiantes";
             this.labelEstudiantes.Size = new System.Drawing.Size(94, 20);
             this.labelEstudiantes.TabIndex = 5;
@@ -95,7 +96,7 @@
             // dataGridEstudiantes
             // 
             this.dataGridEstudiantes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridEstudiantes.Location = new System.Drawing.Point(41, 148);
+            this.dataGridEstudiantes.Location = new System.Drawing.Point(12, 148);
             this.dataGridEstudiantes.Name = "dataGridEstudiantes";
             this.dataGridEstudiantes.RowTemplate.Height = 28;
             this.dataGridEstudiantes.Size = new System.Drawing.Size(741, 234);
@@ -104,7 +105,7 @@
             // linkLabelAgregarEstudiante
             // 
             this.linkLabelAgregarEstudiante.AutoSize = true;
-            this.linkLabelAgregarEstudiante.Location = new System.Drawing.Point(569, 9);
+            this.linkLabelAgregarEstudiante.Location = new System.Drawing.Point(583, 9);
             this.linkLabelAgregarEstudiante.Name = "linkLabelAgregarEstudiante";
             this.linkLabelAgregarEstudiante.Size = new System.Drawing.Size(170, 20);
             this.linkLabelAgregarEstudiante.TabIndex = 7;
@@ -116,7 +117,7 @@
             this.labelTitulo.AutoSize = true;
             this.labelTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitulo.ForeColor = System.Drawing.Color.DarkCyan;
-            this.labelTitulo.Location = new System.Drawing.Point(290, 9);
+            this.labelTitulo.Location = new System.Drawing.Point(261, 9);
             this.labelTitulo.Name = "labelTitulo";
             this.labelTitulo.Size = new System.Drawing.Size(213, 32);
             this.labelTitulo.TabIndex = 8;
@@ -126,7 +127,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(832, 394);
+            this.ClientSize = new System.Drawing.Size(769, 394);
             this.Controls.Add(this.labelTitulo);
             this.Controls.Add(this.linkLabelAgregarEstudiante);
             this.Controls.Add(this.dataGridEstudiantes);
